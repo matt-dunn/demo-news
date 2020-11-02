@@ -26,6 +26,8 @@ Based on [screen](https://projects.invisionapp.com/share/WQZ407CTRVP#/screens/43
 - I picked the colours from the supplied image as best I could without a defined palette
 - The whitespace / margin / padding may not be spot on as I ran out of time to accurately measure every part of the design as I would normally do
 - I've not used domain language for the components or object model 
+- State management - I didn't have time to implement app state; depending on the technical solution I would use Redux for state management with 
+  perhaps redux-saga or redux-observable if more complex action payload processing is required.
 - Used create-react-app to quickly bootstrap with typescript template. I would normally build the project up from scratch
   to keep the config/deps lightweight (and to have full control over webpack). I would consider ejecting if more complex configuration was needed.
 - Did not have time to write any Tests! Would use:
