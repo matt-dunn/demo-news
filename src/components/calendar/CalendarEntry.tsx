@@ -9,7 +9,7 @@ export type CalendarEntryProps = {
   onSelect: (item: CalendarEntryType) => void;
 }
 
-const CalendarEntry$ = styled.article<Pick<CalendarEntryProps, 'selected'>>`
+const CalendarEntryStyled = styled.article<Pick<CalendarEntryProps, 'selected'>>`
   min-width: 8rem;
   min-height: 8rem;
   cursor: pointer;
@@ -65,7 +65,7 @@ export const CalendarEntry = ({selected = false, item, onSelect}: CalendarEntryP
   const handleSelect = () => onSelect(item)
 
   return (
-    <CalendarEntry$
+    <CalendarEntryStyled
       aria-selected={selected}
       selected={selected}
       onClick={handleSelect}
@@ -81,6 +81,6 @@ export const CalendarEntry = ({selected = false, item, onSelect}: CalendarEntryP
         ))}
       </ul>
       }
-    </CalendarEntry$>
+    </CalendarEntryStyled>
   )
 }

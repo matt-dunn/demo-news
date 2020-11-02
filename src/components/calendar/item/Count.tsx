@@ -6,7 +6,7 @@ type CountProps = {
   color?: string; // Wouldn't normally do it like this - with more time would probably make this a 'type' value
 }
 
-const Count$ = styled.cite<Pick<CountProps, 'color'>>`
+const CountStyled = styled.cite<Pick<CountProps, 'color'>>`
   background-color: ${({color}) => color || "red"};
   color: #fff;
   padding: 0.1rem;
@@ -21,7 +21,7 @@ const Count$ = styled.cite<Pick<CountProps, 'color'>>`
 `
 
 export const Count = ({value, color}: CountProps) => (
-  <Count$ color={color}>
+  <CountStyled color={color}>
     {value}
-  </Count$>
+  </CountStyled>
 );

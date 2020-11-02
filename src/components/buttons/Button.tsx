@@ -6,7 +6,7 @@ type ButtonProps = {
   selected?: boolean
 }
 
-const Button$ = styled.button<ButtonProps>`
+const ButtonStyled = styled.button<ButtonProps>`
   border: 1px solid var(--button-border-color);
   border-radius: var(--button__border-radius);
   background-color: var(--button__bg-color);
@@ -27,8 +27,8 @@ const Button$ = styled.button<ButtonProps>`
 `
 
 export const Button = ({children, selected}: ButtonProps) => (
-  <Button$ selected={selected}>
+  <ButtonStyled selected={selected}>
     {children}
-  </Button$>
+  </ButtonStyled>
 );
 

@@ -5,7 +5,7 @@ type ButtonGroupProps = {
   children: ReactNode;
 }
 
-const ButtonGroup$ = styled.nav`
+const ButtonGroupStyled = styled.nav`
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
@@ -30,7 +30,7 @@ const ButtonGroup$ = styled.nav`
 `
 
 export const ButtonGroup = ({children}: ButtonGroupProps) => (
-  <ButtonGroup$>
+  <ButtonGroupStyled>
     {children}
-  </ButtonGroup$>
+  </ButtonGroupStyled>
 );

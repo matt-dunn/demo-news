@@ -11,7 +11,7 @@ export type CalendarProps = {
 }
 
 // @TODO: Style scrollbar as per design...
-const Calendar$ = styled.section`
+const CalendarStyled = styled.section`
   overflow-x: auto;
   
   > ul {
@@ -29,7 +29,7 @@ const Calendar$ = styled.section`
 `;
 
 export const Calendar = ({items, onSelect, selectedItemId}: CalendarProps) => (
-  <Calendar$>
+  <CalendarStyled>
     <ul>
       {items.map(item => (
         <li key={item.id}>
@@ -37,5 +37,5 @@ export const Calendar = ({items, onSelect, selectedItemId}: CalendarProps) => (
         </li>
       ))}
     </ul>
-  </Calendar$>
+  </CalendarStyled>
 );
