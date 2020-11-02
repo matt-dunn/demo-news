@@ -20,6 +20,8 @@ If you want to see some other work I've but together you can see here:
 
 ![](./docs/assets/news-example.png)
 
+Based on [screen](https://projects.invisionapp.com/share/WQZ407CTRVP#/screens/434811141).
+
 - I spent 2-3 hours on this so I picked one main section of the full set of components as shown above
 - I picked the colours from the supplied image as best I could without a defined palette
 - The whitespace / margin / padding may not be spot on as I ran out of time to accurately measure every part of the design as I would normally do
