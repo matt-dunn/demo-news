@@ -1,0 +1,36 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0C1218;
+  color: #fff;
+  color: var(--main__color);
+}
+
+:root {
+  --main__bg-color: #000;
+  --main__color: #fff;
+  --secondary__bg-color: #1A1E25;
+  --accent__bg-color: #282D38;
+  --accent__color: #343B49;
+
+  --button__border-radius: 0.2rem;
+  --button__bg-color: #131519;
+  --button__color: #BCBCBC;
+  --button-border-color: #3A3D40;
+  --button__bg-color--selected: #14455D;
+  --button__bg-color--secondary-selected: #172D3B;
+  --button__color--selected: #fff;
+  --button-border-color--selected: #0E576F;
+}
+
+
+/*# sourceMappingURL=main.e6c10f93.chunk.css.map*/
