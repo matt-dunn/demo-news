@@ -9,6 +9,10 @@ const ButtonGroupStyled = styled.nav`
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
+  
+  button {
+    margin:0;
+  }
 
   button:not(:first-of-type):not(:last-of-type) {
     border-radius: 0;
