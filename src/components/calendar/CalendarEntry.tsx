@@ -70,7 +70,6 @@ export const CalendarEntry = ({selected = false, item, onSelect}: CalendarEntryP
       selected={selected}
       onClick={handleSelect}
     >
-      {/* @TODO: Date would be ISO and formatted */}
       <header>{formattedDate}</header>
       {items.length > 0 &&
       <ul>
